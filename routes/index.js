@@ -14,7 +14,7 @@ var mensajes = [];
 
 router.post('/mensaje',function(req,res,next){
   console.log(req.body);
-    mensajes.push(req.body.txtMensaje.concat( "Prueba");
+    mensajes.push(req.body.txtMensaje.concat( "Prueba"));
     var msgs = mensajes;
     var rtObject = {};
     rtObject.txtMensaje = req.body.txtMensaje;
